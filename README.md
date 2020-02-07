@@ -31,6 +31,8 @@ support of long reads and chimeric alignment, but BWA-MEM, which is the latest,
 is generally recommended as it is faster and more accurate. BWA-MEM also has
 better performance than BWA-backtrack for 70-100bp Illumina reads.
 
+## Just Test
+
 For all the algorithms, BWA first needs to construct the FM-index for the
 reference genome (the **index** command). Alignment algorithms are invoked with
 different sub-commands: **aln/samse/sampe** for BWA-backtrack,
